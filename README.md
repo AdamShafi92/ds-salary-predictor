@@ -2,13 +2,23 @@
 
 Visit the Webapp here: https://data-salary-predictor.herokuapp.com/
 
-### Data Collection & Modelling
+### Data Collection
 
 The aim of this project is to predict salaries of Data-related jobs (eg Data Scientist, Data Analyst, Data Engineer).
 
 This could be used by applicants looking to understand what the market rate is, or by companies to check where their pay is relative the market. It can also help people understand what skills lead to higher pay.
 
 The model was created using data scraped from Indeed.co.uk. This was cleaned using Pandas.
+
+### EDA
+
+EDA was carried out to look at basic metrics and to generate charts for an article about key hard and soft skills. 
+
+The charts can be viewed in Datapane: https://datapane.com/u/adam1/
+
+The Chord Chart can be viewed here: https://adamshafi92.github.io/Portfolio/hard_skills_chord
+
+### Modelling
 
 Modelling was done using XGBoost and resulted in a MAE of £8800.
 
